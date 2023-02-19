@@ -9,9 +9,9 @@
 *******************************
 %¥
 [rewrite_local]
-^http?:\/\/ringtone\.kugou\.com\/v1\/vip\/get_info|http?:\/\/api\.ring\.kugou\.com\/user\/heartbeat|http?:\/\/api\.ring\.kugou\.com\/user\/main_page|http?:\/\/api\.ring\.kugou\.com\/ring\/get_ring_owninfo_ios|http?:\/\/api\.ring\.kugou\.com\/user\/ring\/detail.*? url script-request-header kglingsheng.js
+^http?:\/\/ringtone\.kugou\.com\/v1\/vip\/get_info|http?:\/\/api\.ring\.kugou\.com\/user\/heartbeat|http?:\/\/api\.ring\.kugou\.com\/user\/main_page|http?:\/\/api\.ring\.kugou\.com\/ring\/get_ring_owninfo_ios|http?:\/\/api\.ring\.kugou\.com\/user\/ring\/detail.*? url script-request-header https://raw.githubusercontent.com/Holland20200520/Lorenzo/main/Scripts/main/Qx666/KglsVip.js
 
-^http?:\/\/ringtone\.kugou\.com\/v1\/vip\/get_info|http?:\/\/api\.ring\.kugou\.com\/user\/heartbeat|http?:\/\/api\.ring\.kugou\.com\/user\/main_page|http?:\/\/api\.ring\.kugou\.com\/ring\/get_ring_owninfo_ios|http?:\/\/api\.ring\.kugou\.com\/user\/ring\/detail*? url script-response-body kglingsheng.js
+^http?:\/\/ringtone\.kugou\.com\/v1\/vip\/get_info|http?:\/\/api\.ring\.kugou\.com\/user\/heartbeat|http?:\/\/api\.ring\.kugou\.com\/user\/main_page|http?:\/\/api\.ring\.kugou\.com\/ring\/get_ring_owninfo_ios|http?:\/\/api\.ring\.kugou\.com\/user\/ring\/detail*? url script-response-body https://raw.githubusercontent.com/Holland20200520/Lorenzo/main/Scripts/main/Qx666/KglsVip.js
 
 
 [mitm]
